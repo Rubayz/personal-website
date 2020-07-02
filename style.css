@@ -19,6 +19,8 @@ h2 {
 .half-width {
     width: 40%;
     float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 .half-width img {
     width: 70%;
@@ -35,4 +37,28 @@ p {
     margin: 1%;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.biography-area {
+    background-image: url("images/biography-bg.png");
+}
+.center {
+    text-align: center;
+}
+.latest {
+    background-image: url("images/latest-work-bg.png");
+}
+.blog {
+    display: inline-block;
+    width: 50%;    
+}
+#center {
+    text-align: center;
+} 
+.client {
+    text-align: center;    
+}
+.rectangle {
+    width: 500px;
+    height: 100px;
+    background-color: pink;
 }
